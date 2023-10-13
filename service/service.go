@@ -1,6 +1,6 @@
 package service
 
-type IService interface {
+type IStockDataService interface {
 	GetStockDatas() []StockDataDto
 	PostStockData(s StockDataDto)
 }

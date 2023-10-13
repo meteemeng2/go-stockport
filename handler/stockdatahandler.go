@@ -8,10 +8,10 @@ import (
 )
 
 type stockDataHandler struct {
-	service service.IService
+	service service.IStockDataService
 }
 
-func NewStockDataHandler(s service.IService) *stockDataHandler {
+func NewStockDataHandler(s service.IStockDataService) *stockDataHandler {
 	sdh := stockDataHandler{
 		service: s,
 	}
